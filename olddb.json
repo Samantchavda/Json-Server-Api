@@ -1,0 +1,16 @@
+{
+    "Employee": [
+      
+    ],
+    "Gender": [
+      { "id": 1, "text": "Mail"},
+      { "id": 2, "text": "Femail"}
+    ],
+    "Department": [
+        { "id": 1 , "name":"MS.Net" },
+        { "id": 2 , "name":"Php" },
+        { "id": 3 , "name":"Java" },
+        { "id": 4 , "name":"Data" },
+        { "id": 5 , "name":"Networking" }
+    ]
+  }
