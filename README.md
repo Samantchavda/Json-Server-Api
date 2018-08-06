@@ -11,6 +11,11 @@ Payload : {
     "text": "Other"
 }
 
+PATCH : http://localhost:3000/api/Employee/1
+Paylod : {
+	"First Name": "Milap12"
+}
+
 POST: http://localhost:3000/api/Gender 
 payload : {
     "id": 3,
