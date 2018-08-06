@@ -39,6 +39,15 @@ server.get('/version', (req, res) => {
 // Router With api prefix
 server.use('/api', router);
 
+// In this example we simulate a server side error response
+// router.render = (req, res) => {
+//     res.status(500).jsonp({
+//         error: "Internal Server Error"
+//     });
+//     res.status(404).jsonp({
+//         error: "Not Found"
+//     });
+// };
 
 
 server.listen(3000, () => {

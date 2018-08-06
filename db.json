@@ -1,19 +1,6 @@
 {
   "Employee": [
-    {
-      "id": 1,
-      "First Name": "Milap12",
-      "Last Name": "Thaker",
-      "createdAt": 1533558433777,
-      "ModifiedAt": 1533558433777
-    },
-    {
-      "id": 2,
-      "First Name": "Samantsinh",
-      "Last Name": "Chavda",
-      "createdAt": 1533558451751,
-      "ModifiedAt": 1533558451751
-    }
+    
   ],
   "Gender": [
     {
