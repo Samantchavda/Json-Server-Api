@@ -53,6 +53,7 @@ server.use(/^(?!\/auth).*$/, (req, res, next) => {
         return
     }
     try {
+        var token = verifyToken(req.headers.authorization.split(' ')[1]);
         if (token != undefined && token.email != undefined) {
             next()
         } else {
@@ -106,6 +107,6 @@ server.use('/api', router);
 
 
 server.listen(3000, () => {
-    console.log('JSON Server is running')
+    console.log('JSON Server is running http://localhost:3000')
 });
 
