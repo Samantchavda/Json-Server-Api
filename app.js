@@ -53,8 +53,13 @@ server.use(/^(?!\/auth).*$/, (req, res, next) => {
         return
     }
     try {
-        verifyToken(req.headers.authorization.split(' ')[1])
-        next()
+        if (token != undefined && token.email != undefined) {
+            next()
+        } else {
+            const status = 401
+            const message = 'Error: ' + token.message;
+            res.status(status).json({ status, message })
+        }
     } catch (err) {
         const status = 401
         const message = 'Error: access_token is not valid'
