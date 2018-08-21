@@ -3,8 +3,8 @@
       
     ],
     "Gender": [
-      { "id": 1, "text": "Mail"},
-      { "id": 2, "text": "Femail"}
+      { "id": 1, "text": "Male"},
+      { "id": 2, "text": "Female"}
     ],
     "Department": [
         { "id": 1 , "name":"MS.Net" },
