@@ -5,11 +5,11 @@
   "Gender": [
     {
       "id": 1,
-      "text": "Mail"
+      "text": "Male"
     },
     {
       "id": 2,
-      "text": "Femail"
+      "text": "Female"
     }
   ],
   "Department": [
